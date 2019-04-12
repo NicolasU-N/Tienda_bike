@@ -3,6 +3,11 @@
     opacity: .9;
 }
 
+.slide{
+    width: 150px;
+    margin: 20px auto;
+}
+
 .navbar .nav-item .nav-link{
     color: #ffffff;
 }
