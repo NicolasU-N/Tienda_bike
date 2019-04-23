@@ -1,6 +1,22 @@
 .navbar{
-    background-color: #211F20 !important ;
+    background-color: #211F20 !important;
 }
+
 .nav-link{
-    font-size: 1.3rem;
+    font-size: 1.3rem
+}
+
+.dropdown-menu{
+    background-color: #211F20 !important;
+}
+
+.dropdown-menu .dropdown-item{
+    color:white;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color:#F78225;
+}
+
+.bg-dark{
+    background-color: #211F20 !important;
 }
