@@ -20,3 +20,15 @@
 .bg-dark{
     background-color: #211F20 !important;
 }
+
+.btn{
+    background-color:#00ACE8 !important;
+} 
+
+.colorText{
+    color:#00ACE8;
+}
+
+.colorText:hover{
+    color:#F78225;
+}
