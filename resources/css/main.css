@@ -62,10 +62,27 @@ nav > ul li{
     display: table-cell;
 }
 
-nav > ul > li > ul{
-    display: none;
-
+/*Sub-menu*/
+nav > ul > li:hover > ul{
+    display: block;
+    height: 100%;
 }
+nav > ul > li > ul{
+    display: block;
+    position: absolute;
+    background: #211F20;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    height: 0;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+
 
 nav > ul li a{
     color:#fff;
@@ -83,8 +100,9 @@ nav > ul li a{
 }
 
 nav > ul > li > ul > li a:hover{
-    background: #211F20;
+    background: #F78225;
     text-decoration: none !important;
+    color: #00ACE8;
 }
 
 nav > ul > li > a span{
