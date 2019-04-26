@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Ivan';
-  src:  url('fonts/Ivan.eot?ko287b');
-  src:  url('fonts/Ivan.eot?ko287b#iefix') format('embedded-opentype'),
-    url('fonts/Ivan.ttf?ko287b') format('truetype'),
-    url('fonts/Ivan.woff?ko287b') format('woff'),
-    url('fonts/Ivan.svg?ko287b#Ivan') format('svg');
+  src:  url('fonts/Ivan.eot?qxahrz');
+  src:  url('fonts/Ivan.eot?qxahrz#iefix') format('embedded-opentype'),
+    url('fonts/Ivan.ttf?qxahrz') format('truetype'),
+    url('fonts/Ivan.woff?qxahrz') format('woff'),
+    url('fonts/Ivan.svg?qxahrz#Ivan') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,12 +24,42 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-cart:before {
+  content: "\e904";
+}
+.icon-shopping:before {
+  content: "\e904";
+}
+.icon-ecommerce:before {
+  content: "\e904";
+}
+.icon-buy:before {
+  content: "\e904";
+}
+.icon-purchase:before {
+  content: "\e904";
+}
+.icon-cart1:before {
+  content: "\e93a";
+}
 .icon-directions_bike:before {
   content: "\e900";
 }
 .icon-box:before {
   content: "\e901";
 }
+.icon-user:before {
+  content: "\e905";
+}
 .icon-road:before {
   content: "\e902";
+}
+.icon-bike:before {
+  content: "\e903";
+}
+.icon-bicycle:before {
+  content: "\e903";
+}
+.icon-ride:before {
+  content: "\e903";
 }

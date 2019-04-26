@@ -65,14 +65,13 @@ nav > ul li{
 /*Sub-menu*/
 nav > ul > li:hover > ul{
     display: block;
-    height: 100%;
+    height: auto;
 }
 nav > ul > li > ul{
     display: block;
     position: absolute;
     background: #211F20;
-    left: 0;
-    right: 0;
+    opacity: 80%;
     overflow: hidden;
     height: 0;
     -webkit-transition: all 200ms ease;
