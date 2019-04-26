@@ -40,14 +40,22 @@
 /*Codigo del nuevo Nav*/
 
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
 
+nav {
+    top:-20px;
+    position: absolute;
+    left:0;
+    right:0;
+	margin:20px auto;
+	max-width:1000px;
+    width:90%;
+}
 
 nav ul{
     list-style: none;
-
 }
 
 nav > ul{
@@ -71,7 +79,6 @@ nav > ul > li > ul{
     display: block;
     position: absolute;
     background: #211F20;
-    opacity: 80%;
     overflow: hidden;
     height: 0;
     -webkit-transition: all 200ms ease;
@@ -129,3 +136,13 @@ nav > ul > li > a:hover >span{
     color:#00ACE8;
 }
 
+.logo{  
+    float: left;
+    margin: 10px;
+    
+}
+.eIcons{
+    float: right; 
+    margin: 10px;
+    padding: 20px;
+}
