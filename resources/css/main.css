@@ -37,3 +37,29 @@
 .colorText:hover{
     color:#F78225;
 }
+
+dt{
+  width: 6rem;
+  float: left;
+  word-wrap: break-word;
+}
+
+.itemside {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+}
+
+.itemside .text-wrap {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.text-muted {
+  color: #6c757d !important;
+}
+small, .small {
+  font-size: 80%;
+  font-weight: 400;
+}

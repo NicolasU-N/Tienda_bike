@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carrito</title>
+  
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+  
+    <!-- Font Awesome  -->
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"
+      integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="resources/css/main.css">
+    <!--Estilos propios Iconos fonts-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV BAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top position-sticky text-center">
+    <a class="navbar-brand" href="index.html" ><img src="resources/img/Logo.svg"></a> <!--Logo -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="bicicletas.html">Bicicletas <span class="sr-only">(current)</span></a>
+        </li>
+        <div class="dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Productos
+            </a>
+            <div class="dropdown-menu text-center" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="repuestos.html">Repuestos</a>
+              <a class="dropdown-item" href="equipamiento.html">Equipamiento</a>
+              <a class="dropdown-item" href="#">Otros</a>
+            </div>
+          </div>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Rutas <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="login.html"> <i class="icon icon-user" style="font-size: 2.0rem !important"> </i></a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="carrito.html"> <i class="icon icon-shopping"  style="font-size: 2.0rem !important"> </i></a>
+        </li>
+      </ul>
+    </div>
+  </nav> 
+<!--NAV BAR-->
+
+  
+
+  <section class="section-content bg padding-y my-5">
+    <div class="container-fluid">
+    
+    <div class="row">
+      <main class="col-sm-9">
+    
+    <div class="card">
+    <table class="table table-hover shopping-cart-wrap">
+    <thead class="text-muted">
+    <tr>
+      <th scope="col" class="text-center">Producto</th>
+      <th scope="col" width="120" class="text-center">Cantidad</th>
+      <th scope="col" width="120" class="text-center">Precio</th>
+      <th scope="col" width="200" class="text-center">Acción</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>
+    <figure class="media">
+      <div class="img-wrap"><img src="resources/img/Bicicletas/Venzo.jpg" class="img-thumbnail img-sm w-75"></div>
+      <figcaption class="media-body">
+        <h6 class="title text-truncate">Bicicleta Venzo </h6>
+        <dl class="dlist-inline small">
+          <dt>Talla: </dt>
+          <dd>XXL</dd>
+        </dl>
+        <dl class="dlist-inline small">
+          <dt>Color: </dt>
+          <dd>Orange color</dd>
+        </dl>
+      </figcaption>
+    </figure> 
+      </td>
+      <td> 
+        <select class="form-control">
+          <option>1</option>
+          <option>2</option>	
+          <option>3</option>	
+          <option>4</option>	
+        </select> 
+      </td>
+      <td> 
+        <div class="price-wrap"> 
+          <var class="price">$2'000.000 cop</var> 
+          <small class="text-muted">($2'000.000 cop c/u)</small> 
+        </div> <!-- price-wrap .// -->
+      </td>
+      <td class="text-right"> 
+      <a data-original-title="Save to Wishlist" title="" href="" class="btn btn-outline-success" data-toggle="tooltip" style="background-color: white !important"> <i class="fa fa-heart"></i></a> 
+      <a href="" class="btn btn-outline-danger" style="background-color: white !important"> × Remove</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+    <figure class="media">
+      <div class="img-wrap"><img src="resources/img/Equipamiento/camisa_1.jpg" class="img-thumbnail img-sm w-75"></div>
+      <figcaption class="media-body">
+        <h6 class="title text-truncate">Camisa ciclismo </h6>
+        <dl class="dlist-inline small">
+          <dt>Talla: </dt>
+          <dd>XXL</dd>
+        </dl>
+        <dl class="dlist-inline small">
+          <dt>Color: </dt>
+          <dd>Orange color</dd>
+        </dl>
+      </figcaption>
+    </figure> 
+      </td>
+      <td> 
+        <select class="form-control">
+          <option>1</option>
+          <option>2</option>	
+          <option>3</option>	
+          <option>4</option>	
+        </select> 
+      </td>
+      <td> 
+        <div class="price-wrap"> 
+          <var class="price">$30.000 cop</var> 
+          <small class="text-muted">($30.000 cop c/u)</small> 
+        </div> <!-- price-wrap .// -->
+      </td>
+      <td class="text-right"> 
+        <a data-original-title="Save to Wishlist" title="" href="" class="btn btn-outline-success" data-toggle="tooltip" style="background-color: white !important"> <i class="fa fa-heart"></i></a> 
+        <a href="" class="btn btn-outline-danger" style="background-color: white !important"> × Remove</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+    <figure class="media">
+      <div class="img-wrap"><img src="resources/img/Equipamiento/guantes.jpg" class="img-thumbnail img-sm w-75"></div>
+      <figcaption class="media-body">
+        <h6 class="title text-truncate">Guantes ciclismo </h6>
+        <dl class="dlist-inline small">
+          <dt>Talla: </dt>
+          <dd>XXL</dd>
+        </dl>
+        <dl class="dlist-inline small">
+          <dt>Color: </dt>
+          <dd>Orange color</dd>
+        </dl>
+      </figcaption>
+    </figure> 
+      </td>
+      <td> 
+        <select class="form-control">
+          <option>1</option>
+          <option>2</option>	
+          <option>3</option>	
+          <option>4</option>	
+        </select> 
+      </td>
+      <td> 
+        <div class="price-wrap"> 
+          <var class="price">$20.000 cop</var> 
+          <small class="text-muted">($20.000 cop c/u)</small> 
+        </div> <!-- price-wrap .// -->
+      </td>
+      <td class="text-right"> 
+        <a data-original-title="Save to Wishlist" title="" href="" class="btn btn-outline-success" data-toggle="tooltip" style="background-color: white !important"> <i class="fa fa-heart"></i></a> 
+      <a href="" class="btn btn-outline-danger" style="background-color: white !important"> × Remove</a>
+      </td>
+    </tr>
+    </tbody>
+    </table>
+    </div> <!-- card.// -->
+    
+      </main> <!-- col.// -->
+      <aside class="col-sm-3 ">
+    <p class="alert alert-success">Agregue $15.000 cop de artículos elegibles a su pedido para calificar para envío GRATIS. </p>
+    <dl class="dlist-align">
+      <dt>Precio Total: </dt>
+      <dd class="text-right">$2'050.000 cop</dd>
+    </dl>
+    <dl class="dlist-align">
+      <dt>Descuento:</dt>
+      <dd class="text-right">$50.000 cop</dd>
+    </dl>
+    <dl class="dlist-align h4">
+      <dt>Total:</dt>
+      <dd class="text-right"><strong>$2'000.000 cop</strong></dd>
+    </dl>
+    <hr>
+    <figure class="itemside mb-3">
+      <aside class="aside"><i class="fab fa-cc-visa" style="font-size: 2.6rem"></i></aside>
+       <div class="text-wrap small text-muted">
+        Paga 84.78 AED (Ahorra 14.97 AED)
+        Mediante el uso de tarjetas ADCB
+       </div>
+    </figure>
+    <figure class="itemside mb-3">
+      <aside class="aside"> <i class="fab fa-cc-mastercard" style="font-size: 2.6rem"></i> </aside>
+      <div class="text-wrap small text-muted">
+    Paga con MasterCard y ahorra 40%.<br>
+    Lorem ipsum dolor 
+      </div>
+    </figure>
+    <button type="button" class="btn btn-outline-success btn-lg btn-block" style="background-color: white !important">Comprar</button>
+    
+      </aside> <!-- col.// -->
+    </div>
+    
+    </div> <!-- container .//  -->
+    </section>
+
+
+<!--FOOTER-->
+<div class="position-static fixed-bottom">
+    <footer class="bg-dark py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="accordion w-100 d-lg-flex" id="accordion">
+                <div class="col-lg-4 col-md-12">
+                  <a href="#one" data-toggle="collapse"
+                    class="h5 text-uppercase text-white nav-link p-0 d-block d-lg-none d-xl-none">Contacto</a>
+                  <div class="h5 text-uppercase text-white p-0 d-none d-lg-block d-xl-block">
+                    Contacto
+                  </div>
+                  <div class="collapse text-white d-lg-flex" id="one" data-parent="#accordion">
+                    <ul class="list-unstyled">
+                      <li>
+                        <div><i href="#" class="fab fa-facebook-square"></i><a class="colorText"
+                            href="https://www.facebook.com/AlmacenFabioAcevedo/?epa=SEARCH_BOX"> AlmacenFabioAcevedo</a>
+                        </div>
+                      <li>
+                      <li>
+                        <div><i href="#" class="fab fa-instagram"></i><a class="colorText"
+                            href="https://www.facebook.com/AlmacenFabioAcevedo/?epa=SEARCH_BOX"> AlmacenFabioAcevedo</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div><i href="#" class="fab fa-twitter-square"></i><a class="colorText"
+                            href="https://www.facebook.com/AlmacenFabioAcevedo/?epa=SEARCH_BOX"> AlmacenFabioAcevedo</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div><i class="fas fa-envelope"></i><a class="colorText"
+                            href="https://www.facebook.com/AlmacenFabioAcevedo/?epa=SEARCH_BOX"> AlmacenFabioAcevedo</a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                  <a href="#two" data-toggle="collapse"
+                    class="h5 text-uppercase text-white nav-link p-0 d-block d-lg-none d-xl-none">Servicio & Legal</a>
+                  <div class="h5 text-uppercase text-white p-0 d-none d-lg-block d-xl-block">
+                    Servicios & Legal
+                  </div>
+                  <div class="collapse text-white d-lg-flex" id="two" data-parent="#accordion">
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="https://www.facebook.com/AlmacenFabioAcevedo/?epa=SEARCH_BOX">Terminos y
+                          condiciones</a>
+                      </li>
+                      <li>
+                        <a href="https://www.facebook.com/AlmacenFabioAcevedo/?epa=SEARCH_BOX">Garantias</a>
+                      </li>
+                      <li>
+                        <a href="https://www.facebook.com/AlmacenFabioAcevedo/?epa=SEARCH_BOX">Politicas de
+                          privacidad</a>
+                      </li>
+                      <li>
+                        <a href="https://www.facebook.com/AlmacenFabioAcevedo/?epa=SEARCH_BOX">Atencion al Cliente</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                  <a href="#three" data-toggle="collapse"
+                    class="h5 text-uppercase text-white nav-link p-0 d-block d-lg-none d-xl-none">Inscribete</a>
+                  <div class="h5 text-uppercase text-white p-0 d-none d-lg-block d-xl-block">
+                    Inscribete
+                  </div>
+                  <div class="collapse text-white d-lg-flex" id="three" data-parent="#accordion">
+                    <div><input type="text" placeholder="email"><button type="button"
+                        class="btn btn-primary btn-sm ml-2 mb-1">
+                        Unirme
+                      </button></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </footer>
+  <!-- FOOTER-->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+
+</body>
+</html>
